@@ -1,10 +1,3 @@
-package rusiru.official.com.util;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.*;
-
 /**
 * ${rusiru.official.com.util.Item}
 * @ClassName:  ${Item}
@@ -12,6 +5,14 @@ import java.sql.*;
 * @author: Rusiru Kulathunga
 * @date:   05-03-2021
 */
+
+package rusiru.official.com.util;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.*;
+
 
 
 public class Item {
