@@ -116,7 +116,7 @@ public class Item {
 	public String deleteItem(int itemID) {
         try {
 			Connection con = connect();
-			PreparedStatement preparedStatement = con.prepareStatement("delete from items where itemID=?");
+			PreparedStatement preparedStatement = con.prepareStatement("DELETE FROM items WHERE itemID=?");
 			
 			preparedStatement.setInt(1, itemID);
 			preparedStatement.executeUpdate();
